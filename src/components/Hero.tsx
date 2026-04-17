@@ -7,7 +7,7 @@ export default function Hero() {
         {/* Logo - Clean and Simple */}
         <div className="mb-8 text-center">
           <div className="inline-block p-3 bg-gray-100 rounded-2xl shadow-sm">
-            <img src="/ATV-Sports-/icon.png" alt="ATV Sports" className="h-20 w-20 rounded-lg" />
+            <img src="https://www.atvsports.live/icon.png" alt="ATV Sports" className="h-20 w-20 rounded-lg" />
           </div>
         </div>
 

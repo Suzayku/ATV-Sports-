@@ -10,6 +10,9 @@ import FAQ from './components/FAQ'
 import Disclaimer from './components/Disclaimer'
 import Footer from './components/Footer'
 
+// Active User Configuration
+const ACTIVE_USER_ID = '570886'
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900 text-white" style={{paddingTop: '56px'}}>
