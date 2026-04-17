@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed w-full bg-gradient-to-r from-blue-950 to-blue-900 backdrop-blur-sm z-50 border-b border-blue-800">
+    <header className="fixed w-full bg-gradient-to-r from-purple-950 to-black backdrop-blur-sm z-50 border-b border-purple-800">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14">
           <div className="flex items-center gap-2">
@@ -14,9 +14,9 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <a href="#features" className="text-blue-200 hover:text-white transition text-sm">Features</a>
-            <a href="#screenshots" className="text-blue-200 hover:text-white transition text-sm">Gallery</a>
-            <a href="#faq" className="text-blue-200 hover:text-white transition text-sm">FAQ</a>
+            <a href="#features" className="text-purple-200 hover:text-white transition text-sm">Features</a>
+            <a href="#screenshots" className="text-purple-200 hover:text-white transition text-sm">Gallery</a>
+            <a href="#faq" className="text-purple-200 hover:text-white transition text-sm">FAQ</a>
             <a href="#download" className="btn-primary text-sm">Download Now</a>
           </div>
 
@@ -30,9 +30,9 @@ export default function Header() {
 
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2">
-            <a href="#features" className="block text-blue-200 hover:text-white py-2 text-sm">Features</a>
-            <a href="#screenshots" className="block text-blue-200 hover:text-white py-2 text-sm">Gallery</a>
-            <a href="#faq" className="block text-blue-200 hover:text-white py-2 text-sm">FAQ</a>
+            <a href="#features" className="block text-purple-200 hover:text-white py-2 text-sm">Features</a>
+            <a href="#screenshots" className="block text-purple-200 hover:text-white py-2 text-sm">Gallery</a>
+            <a href="#faq" className="block text-purple-200 hover:text-white py-2 text-sm">FAQ</a>
             <button className="btn-primary w-full text-sm">Download Now</button>
           </div>
         )}

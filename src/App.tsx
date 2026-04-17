@@ -15,7 +15,7 @@ const ACTIVE_USER_ID = '570886'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900 text-white" style={{paddingTop: '56px'}}>
+    <div className="min-h-screen bg-gradient-to-br from-purple-950 via-black to-purple-900 text-white" style={{paddingTop: '56px'}}>
       <Header />
       <Hero />
       <Stats />
