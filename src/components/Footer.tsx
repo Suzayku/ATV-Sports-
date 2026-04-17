@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <img src="/icon.png" alt="ATV Sports" className="h-7 w-7 rounded" />
+              <img src="/ATV-Sports-/icon.png" alt="ATV Sports" className="h-7 w-7 rounded" />
               <span className="text-lg font-bold text-white">ATV Sports</span>
             </div>
             <p className="text-blue-200 text-xs">
