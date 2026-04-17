@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="text-xs text-gray-600">Sports Events</div>
           </div>
           <div className="glass p-3 rounded-lg text-center border border-gray-200">
-            <div className="text-xl font-bold text-black">10,578</div>
+            <div className="text-xl font-bold text-black">570886</div>
             <div className="text-xs text-gray-600">Active Users</div>
           </div>
           <div className="glass p-3 rounded-lg text-center border border-gray-200">
