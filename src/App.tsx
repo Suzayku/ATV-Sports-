@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900" style={{paddingTop: '56px'}}>
+    <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900 text-white" style={{paddingTop: '56px'}}>
       <Header />
       <Hero />
       <Stats />
