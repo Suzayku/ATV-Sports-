@@ -71,7 +71,8 @@ export default function Screenshots() {
     if (!container) return
 
     let scrollPosition = 0
-    const scrollSpeed = 3
+    // Faster speed for mobile and desktop
+    const scrollSpeed = window.innerWidth < 768 ? 5 : 3
     let animationId: number
 
     const autoScroll = () => {
