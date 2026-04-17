@@ -71,7 +71,7 @@ export default function Screenshots() {
     if (!container) return
 
     let scrollPosition = 0
-    const scrollSpeed = 1
+    const scrollSpeed = 3
     let animationId: number
 
     const autoScroll = () => {
